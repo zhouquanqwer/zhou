@@ -1,0 +1,281 @@
+@import url("base.css");
+*{
+	-webkit-text-size-adjust: none;
+}
+header {
+	border: none;
+	position: fixed;
+	top: 0;
+	z-index: 88;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.24rem;
+	padding: 0 0.24rem;
+	width: 7.5rem;
+	height: 0.52rem;
+	background-image:linear-gradient(90deg, #fe3e94 0%, #fd3a3b 100%)
+}
+header i{
+	color: white;
+}
+.pic {
+	/*margin-top: 0.52rem;*/
+	position: relative;
+	height: 1.98rem;
+	width: 7.5rem;
+	/*background-color: yellow;*/
+}
+.col {
+	height: 0.98rem;
+	width: 7.5rem;
+	background-image:linear-gradient(90deg, #fe3e94 0%, #fd3a3b 100%)
+}
+.mid {
+	position: absolute;
+	top:0.52rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1.44rem;
+	height: 1.44rem;
+	background-color: red;
+}
+.mid img {
+	width: 1.44rem;
+	height: 1.44rem;
+}
+.name {
+	height: 2.42rem;
+	width: 7.5rem;
+	/*background-color: orange;*/
+	padding: 0.24rem;
+	text-align: center;
+}
+.name h1 {
+	font-weight: 400;
+	font-size: 0.3rem;
+	height: 0.29rem;
+	margin-bottom: 0.24rem;
+}
+.name p {
+	color: #585858;
+	font-size: 0.2rem;
+	width: 4rem;
+	height: 0.2rem;
+	/*background-color: white;*/
+	margin: auto;
+	margin-bottom: 0.24rem;
+}
+.ping {
+	display: flex;
+	justify-content: space-between;
+}
+.juan {
+	height: 0.47rem;
+	width: 2.74rem;
+	margin: auto;
+	background-color: red;
+	font-size: 0.24rem;
+}
+.juan img {
+	height: 0.47rem;
+	width: 2.74rem;
+}
+.main {
+	background-color: #EBEBEB;
+	width: 7.5rem;
+	height: 14.5rem;
+	padding: 0.24rem 0;
+}
+.maincontent {
+	height: 13rem;
+	width: 7.5rem;
+	background-color: white;
+	padding: 0.24rem;
+}
+.menu {
+	height: 0.66rem;
+	width: 7.02rem;
+	/*text-align: center;*/
+	/*background-color: red;*/
+}
+.menu li {
+	/*text-align: center;*/
+	width:33.3333%;
+	float: left;
+	/*background-color: yellow;*/
+	margin-bottom: 0.24rem;
+}
+.menu li a{
+	width: 100%;
+	height: 100%;
+}
+.btns {
+	font-size: 0.2rem;
+	height: 0.42rem;
+	width: 0.84rem;
+	background-color: #fdc9e0;
+	border-radius: 333rem;
+	text-align: center;
+	line-height: 0.42rem;
+	margin: auto;
+}
+.hot {
+	border-radius: 333rem;
+	text-align: center;
+	line-height: 0.42rem;
+	margin: auto;
+	font-size: 0.2rem;
+	height: 0.42rem;
+	width: 0.84rem;
+	background-image: linear-gradient(172deg, #ff397a 0%, #ff4e4e 100%);
+	color: white;
+}
+.fenlei {
+	height: 7.04rem;
+	width: 1.6rem;
+	float: left;
+	/*background-color: #ebebeb;*/
+}
+.food {
+	height: 9rem;
+	width: calc(100% - 1.6rem);
+	/*background-color: yellow;*/
+	float: right;
+	padding: 0 0.24rem;	
+}
+.fenlei li{
+	width: 100%;
+	height: 12.5%;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.88rem;
+	background-color: #ebebeb;
+}
+.feilei li a{
+	width: 100%;
+	height: 100%;
+}
+ul .hott {
+	background-color: white;
+}
+.food a li {
+	width: 100%;
+	height: 1.8rem;
+	/*background-color: pink;*/
+	border-bottom: solid;
+	border-width: 0.01rem;
+	border-color: #999;
+	margin-bottom: 0.24rem;
+}
+.tu {
+	width: 1.44rem;
+	height: 1.44rem;
+}
+.food a li .tu img{
+	width: 1.44rem;
+	height: 1.44rem;
+	/*float:left;*/
+}
+.info {
+	padding-left: 0.24rem;
+	height: 100%;
+	width: calc(100% - 1.44rem);
+	/*background-color: skyblue;*/
+	float: right;
+}
+.info h2 {
+	font-size: 0.3rem;
+	font-weight: 400;
+}
+.info p {
+	font-size: 0.24rem;
+	margin-bottom: 0.04rem;
+}
+.info h1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.41rem;
+	color: #ff0000;
+	font-weight: 400;
+}
+.add {
+	width: 0.41rem;
+	height: 0.41rem;
+	background-image: linear-gradient(172deg, #ff397a 0%, #ff4e4e 100%);
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	line-height: 0.41rem;
+	font-size: 0.24rem;
+}
+.add i {
+	font-size: 0.24rem;
+}
+.gouwuche {
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	height: 1.4rem;
+	width: 7.5rem;
+	background-color: yellow;
+	
+}
+.g-top{
+	height: 0.42rem;
+	background-color: #ffdbb7;
+	width: 100%;
+	text-align: center;
+	line-height: 0.42rem;
+	font-size: 0.2rem;
+	color: rgba(0,0,0,0.7);
+}
+.che {
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.44rem;
+	width: 0.93rem;
+	height: 0.93rem;
+	background-image: linear-gradient(172deg, #ff397a 0%, #ff4e4e 100%);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 0.93rem;
+	font-size: 0.5rem;
+}
+.che i {
+	font-size: 0.56rem;
+	color: white;
+}
+.zhifu {
+	height: 0.98rem;
+	width: 100%;
+	background-color: #333333;
+}
+.queren {
+	background-color: #46484b;
+	width: 1.7rem;
+	height: 100%;
+	float: right;
+	line-height: 0.98rem;
+	font-size: 0.22rem;
+	text-align: center;
+	color: white;
+}
+.xinxi {
+	width: 1.28rem;
+	height: 0.76rem;
+	/*background-color: pink;*/
+	margin-left: 1.6rem;
+	padding-top: 0.18rem;
+}
+.price {
+	font-size: 0.22rem;
+	color: #686262;
+}
+.free {
+	font-size: 0.2rem;
+	color: #686262;
+}

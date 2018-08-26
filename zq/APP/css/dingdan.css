@@ -1,0 +1,141 @@
+@import url("base.css");
+header{
+	width: 7.5rem;
+	height: 0.88rem;
+	background-image: linear-gradient(90deg, 
+		#fe3e94 0%, 
+		#fd3a3b 100%);
+		font-size: 0.3rem;
+		text-align: center;
+		line-height: 0.88rem;
+		color: white;
+}
+.main{
+	/*height: 12.46rem;*/
+	width: 7.5rem;
+	padding: 0.24rem;
+	background-color: #F4F4F4;
+}
+.main>a>li {
+	padding: 0.24rem;
+	height: 2.12rem;
+	background-color: white;
+	box-shadow: 0rem 0.03rem 0.2rem 0rem 
+		rgba(0, 0, 0, 0.3);
+		margin-bottom: 0.24rem;
+	border-radius: 0.15rem;
+}
+.pic{
+	float: left;
+	height: 1.44rem;
+	width: 1.44rem;
+	background-color: red;
+}
+.pic>img{
+	height: 1.44rem;
+}
+.content{
+	
+	padding-left: 0.24rem;
+	float:right;
+	height: 100%;
+	width: calc(100% - 1.44rem);
+	/*background-color: yellow;*/
+}
+.name{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	margin-bottom: 0.08rem;
+}
+.content>.name>h2{
+	font-size: 0.28rem;
+	width: 2.73rem;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	font-weight: 400;
+}
+.content>.name>p {
+	font-size: 0.2rem;
+}
+.star{
+	line-height: 0.2rem;
+	height: 0.2rem;
+	font-size: 0.1rem;
+/*	margin-bottom: 0.02rem;*/
+	/*background-color: red;*/
+}
+.star img {
+	height: 0.2rem;
+}
+.data {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.08rem;
+}
+.data>p {
+	font-size: 0.2rem;
+}
+.data span{
+	font-size: 0.3rem;
+	color: #f45197;
+}
+.btns{
+	display: flex;
+	justify-content: space-between;
+	/*background-color: #2D63FD;*/
+	height: 0.44rem;
+	width: 2.7rem;
+	color: white;
+	line-height: 0.4rem;
+	text-align: center;
+}
+.again{
+	height:100%;
+	width: 1.2rem;
+	background-image: linear-gradient(172deg, 
+		#ff397a 0%, 
+		#ff4e4e 100%);
+	border-radius: 0.215rem;
+	font-size: 0.2rem;	
+}
+.kong {
+	height:0.8rem ;
+}
+.di {
+	position: fixed;
+	z-index: 10000;
+	bottom: 0;
+	align-items: center;
+	line-height: 1.2;
+	width: 7.5rem;
+	height: 0.98rem;
+	background-color: white;
+	font-size: 0.36rem;	
+	/*text-align: center;*/
+}
+.di li {
+	height: 100%;
+	padding-top: 0.18rem;
+	text-align: center;
+	width: 25%;
+	
+	float: left;
+	/*line-height: 0.98rem;*/
+}
+.di li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.di li a p{
+	font-size: 0.2rem;
+}
+.di li a i {
+	font-size: 0.3rem;
+}
+.hot {
+	color:#fd33aa;
+}

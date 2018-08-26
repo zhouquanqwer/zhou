@@ -1,0 +1,254 @@
+@import url("base.css");
+header{
+	padding: 0.24rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 7.5rem;
+	height: 0.88rem;
+	background-image: linear-gradient(90deg, 
+		#fe3e94 0%, 
+		#fd3a3b 100%);	
+}
+header>a>i{
+	float: left;
+	color: white;
+}
+.top-bg {
+	padding: 0 0.24rem;
+	height: 4.56rem;
+	width: 7.5rem;
+	background-image: linear-gradient(90deg, 
+		#fe3e94 0%, 
+		#fd3a3b 100%);
+}
+
+.a-top{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 0.22rem;
+	color: #fcb8d3;
+	margin-bottom: 0.1rem;
+}
+.address>.a-top>span {
+	font-size: 0.26rem;
+	/*float: left;*/
+	margin-right: 0.16rem;
+}
+.biaoqian{
+	/*float: left;*/
+	border-style: solid;
+	border-width: 0.01rem;
+	width: 0.63rem;
+	height: 0.36rem;
+	font-size: 0.2rem;
+	border-color: #fcb8d3;
+	color: #fcb8d3;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.address>h2{
+	display: flex;
+	align-items: center;
+	width: 7.02rem;
+	font-size: 0.32rem;
+	color: white;
+	font-weight: 400;
+	margin-bottom: 0.1rem;
+}
+.address>p {
+	font-size: 0.26rem;
+	color: white;
+	margin-bottom: 0.24rem;
+}
+.discuss{
+	display: flex;
+	justify-content: space-between;
+}
+.d-left {
+	color: rgba(0,0,0,0.8);
+	display: flex;
+/*	justify-content: space-between;*/
+}
+.discuss>span {
+	color: red;
+}
+.address>h2>i{
+	font-size: 0.24rem;
+}
+.info{
+	padding: 0.24rem;
+	width: 7.02rem;
+	height: 1.8rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0.01rem 0.05rem 0rem 
+		rgba(0, 0, 0, 0.33);
+	border-radius: 0.15rem;
+	margin-bottom: 0.24rem;
+}
+.time {
+	height: 0.68rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: solid;
+	border-width: 0.01rem;
+	border-color: #b2b2b2;
+}
+.left {
+	font-size: 0.24rem;
+}
+.info span {
+	/*float: right;*/
+	font-size: 0.22rem;
+	color: #ff000b;
+}
+.payway{
+	/*background-color: red;*/
+	height: calc(100% - 0.69rem);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.info i {
+	font-size: 0.2rem;
+	color: #adadad;
+}
+.main {
+	padding: 0 0.24rem;
+	width: 100%;
+	/*height: 6.08rem;*/
+	background-color: #ffffff;
+	box-shadow: 0rem 0.01rem 0.05rem 0rem 
+		rgba(0, 0, 0, 0.33);
+	border-radius: 0.15rem;
+	margin-bottom: 0.24rem;
+}
+h1{
+	color: rgba(0,0,0,0.9);
+	display: flex;
+	justify-content: space-between;
+	height: 0.78rem;
+	display: flex;
+	align-items: center;
+	/*padding: 0 0.24rem;*/
+	font-size: 0.3rem;
+	border-bottom: solid;
+	border-width: 0.01rem;
+	border-color: #EBEBEB;
+	font-weight: 400;
+	margin-bottom: 0.24rem;
+}
+.pic{
+	/*background-color: red;*/
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.pic >img{
+	float: left;
+	width: 0.7rem;
+}
+.list>li{
+	color: rgba(0,0,0,0.9);
+	margin-bottom: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 0.7rem;
+	width: 100%;
+	/*background-color: yellow;*/
+}
+.list>li>span{
+	font-size: 0.2rem;
+	}
+.discuss {
+	display: flex;
+	align-items: center;
+	font-size: 0.26rem;
+	margin-bottom: 0.24rem;
+}
+.biao{
+	background-color: #f3a6bc;
+	text-align: center;
+	line-height: 0.3rem;
+	width: 0.66rem;
+	height: 0.32rem;
+	font-size: 0.2rem;
+	margin-right: 0.24rem;
+	
+}
+h1>span {
+	font-size: 0.2rem;
+	float: right;
+	color: rgba(0,0,0,0.8);
+}
+.beizhu {
+	padding:0 0.24rem;
+	width: 100%;
+	/*height: 1.54rem;*/
+	background-color: #ffffff;
+	box-shadow: 0rem 0.01rem 0.05rem 0rem 
+		rgba(0, 0, 0, 0.33);
+	border-radius: 0.15rem;
+	margin-bottom: 0.24rem;
+}
+.gouwuche {
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	height: 0.98rem;
+	width: 7.5rem;
+	/*background-color: yellow;*/
+}
+.zongjia {
+	padding-left: 0.24rem;
+	margin-top: 0.26rem;
+	width: 1.54rem;
+	height: 0.5rem;
+	/*background-color: red;*/
+	float: left;
+	border-right: solid;
+	margin-right: 0.24rem;
+	color: white;
+	font-size: 0.3rem;
+	border-color: #535152;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.zhifu {
+
+	height: 0.98rem;
+	width: 100%;
+	background-color: #333333;
+}
+.queren {
+	background-image: linear-gradient(172deg, 
+		#ff397a 0%, 
+		#ff4e4e 100%), 
+	linear-gradient(
+		#46484b, 
+		#46484b);
+	width: 1.7rem;
+	height: 100%;
+	float: right;
+	line-height: 0.98rem;
+	font-size: 0.22rem;
+	text-align: center;
+	color: white;
+}
+.xinxi {
+	float: left;
+	width: 1.28rem;
+	height: 0.76rem;
+	/*background-color: pink;*/
+	/*margin-left: 1.6rem;*/
+	padding-top: 0.18rem;
+}
+.price {
+	font-size: 0.22rem;
+	color: #686262;
+}
+.free {
+	font-size: 0.2rem;
+	color: #686262;
+}

@@ -1,0 +1,156 @@
+@import url("base.css");
+header{
+	padding: 0 0.24rem;
+	display: flex;
+	align-items: center;
+	/*font-size: 0.2rem;*/
+	justify-content: space-between;
+	height: 0.88rem;
+	width: 7.5rem;
+	background-image:linear-gradient(90deg, #fe3e94 0%, #fd3a3b 100%);
+}
+header>a>i{
+	font-size: 0.25rem;
+	color: white;
+}
+i{
+	float: left;
+}
+.kong {
+	/*background-color: yellow;*/
+	width: 0.25rem;
+	height: 0.25rem;
+}
+header>h2 {
+	font-size: 0.36rem;
+	font-weight: 700;
+	color: white;
+}
+.list {
+	height: 0.8rem;
+	width: 7.5rem;
+	background-image:linear-gradient(90deg, #fe3e94 0%, #fd3a3b 100%);
+	overflow: hidden;
+}
+.scrollwrap {
+	display: flex;
+	height: 100%;
+	padding-left: 0.24rem;
+	white-space: nowrap;
+	align-items: center;
+}
+.scrollwrap>li {
+	display: inline-block;
+	font-size: 0.3rem;
+	color: white;
+	margin-right: 0.3rem;
+}
+.nav {
+	height: 0.8rem;
+	width: 7.5rem;
+	/*background-color: yellow;*/
+	text-align: center;
+}
+.nav li {
+	width: 25%;
+	height: 100%;
+	font-size: 0.28rem;
+	float: left;
+	line-height: 0.8rem;
+}
+.nav>li>a {
+	display: block;
+	width:1.875rem;
+	height: 0.8rem;
+}
+.main {
+	padding: 0.24rem;
+	width: 7.5rem;
+	height: 14rem;
+	background-color: #ebebeb;
+}
+.main li {
+	padding: 0.24rem;
+	width: 100%;
+	height: 2.23rem;
+	background-color: white;
+	margin-bottom: 0.24rem;
+	border-radius: 0.15rem;
+}
+.main li img {
+	width: 1.44rem;
+	margin-right: 0.24rem;
+}
+.text {
+	width: 4.82rem;
+	/*background-color: yellow;*/
+	height: 1.6rem;
+	float: right;
+}
+.text h2 {
+	line-height: 0.3rem;
+	height: 0.3rem;
+	font-size: 0.28rem;
+	font-weight: 400;
+	margin-bottom: 0.06rem;
+	
+}
+.star {
+	position: relative;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	/*background-color: blue;*/
+	line-height: 0.3rem;
+	margin-bottom: 0.06rem;
+}
+.yellow {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.grey {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.star span{
+	color: #cbcbcb;
+	font-size: 0.22rem;
+	float: left;
+	/*line-height: 0.3rem;*/
+}
+.peisong {
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+	/*background-color: blue;*/
+	height: 0.3rem;
+	color: #a3a3a3;
+	font-size: 0.22rem;
+	width: 2.23rem;
+	line-height: 0.24rem;
+	margin-bottom: 0.06rem;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.youhui {
+	font-size: 0.24rem;
+	color: #cbcbcb;
+	/*background-color: red;*/
+	width: 3.95rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	margin-bottom: 0.08rem;
+}
+.kuai {
+	text-align: center;
+	padding: 0 0.1rem;
+	color:rgba(0,0,0,0.8);
+	font-size: 0.2rem;
+	background-color: #fb98d0;
+	padding: 0.02 0.04rem;	
+	margin-bottom: 0.01rem;
+}

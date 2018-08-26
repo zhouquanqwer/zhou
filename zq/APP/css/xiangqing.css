@@ -1,0 +1,228 @@
+@import url("base.css");
+header {
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 7.5rem;
+	height: 0.88rem;
+	background-color: #f9263a;
+	opacity: 0.4;
+	padding: 0 0.24rem;
+	line-height: 0.88rem;
+	font-size: 0.5rem;
+}
+header>a>i{
+	margin-left: 0.24rem;
+	color: white;
+	/*font-size: 0.95rem;*/
+}
+.pic {
+	height: 6.48rem;
+	/*background-color: yellow;*/
+	width: 7.5rem;
+	padding: 0.24rem;
+}
+.pic>img{
+	width: 7.02rem;
+	height: 6rem;	
+}
+.info {
+	color: rgba(0,0,0,0.6);
+	height: 2.96rem;
+	width: 7.5rem;
+	padding: 0.24rem;
+	background-color: white;
+	/*border-bottom: solid;
+	border-width: 0.01rem;*/
+}
+.name {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 0.1rem;
+}
+.biaoqian {
+	color: white;
+	font-size: 0.2rem;
+	background-image: linear-gradient(90deg, 
+		#fe8f3e 0%, 
+		#fd3a3b 100%);
+		width: 0.6rem;
+		height: 0.3rem;
+		text-align: center;
+		line-height: 0.3rem;
+		margin-right: 0.24rem;
+}
+.name>h2 {
+	color: rgba(0,0,0,0.9);
+	font-weight: 400;
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+}
+.sell{
+	font-size: 0.2rem;
+	margin-bottom: 0.1rem;
+}
+.pirce {
+	font-size: 0.3rem;
+	color: #ff0000;
+	margin-bottom: 0.08rem;
+}
+.add {
+	float: right;
+	width: 0.41rem;
+	height: 0.41rem;
+	background-image: linear-gradient(172deg, #ff397a 0%, #ff4e4e 100%);
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	line-height: 0.41rem;
+	font-size: 0.24rem;
+}
+.add i {
+	font-size: 0.24rem;
+}
+.info>p {
+	font-size: 0.24rem;
+	margin-bottom: 0.1rem;
+}
+h4 {
+	color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 0.46rem;
+	/*background-color: orange;*/
+	font-size: 0.26rem;
+	font-weight: 400;
+	border-bottom: solid;
+	border-width: 0.01rem;
+	border-color: #666;
+	margin-bottom: 0.1rem;
+}
+.recommend {
+	width: 7.5rem;
+	height: 12.66rem;
+	background-color: #ebebeb;
+	padding: 0.24rem;
+}
+.recommend h3 {
+	font-size: 0.3rem;
+	font-weight: 400;
+	/*margin-bottom: 0.24rem;*/
+}
+.main {
+	height: 10.62rem;
+	width: 100%;
+	/*background-color: yellow;*/
+}
+.main>li {
+	border-radius: 0.14rem;
+	margin-top: 0.24rem;
+	width: 3.33rem;
+	height: 4.99rem;
+	background-color: white;
+	float: left;
+	margin-left: 0.36rem;
+}
+.main>li:nth-child(2n-1){
+	margin-left: 0;
+}
+/*.main>li:nth-child(3){
+	margin-left: 0;
+}*/
+.main-pic{
+	width: 3.33rem;
+	height: 3.33rem;
+	/*background-color: red;*/ 
+	margin-bottom: 0.24rem;
+}
+.main-pic img {
+	width: 3.33rem;
+}
+.main-info {
+	color: rgba(0,0,0,0.6);
+	height: 1.4rem;
+	width: 100%;
+	/*background-color: skyblue;*/
+	padding-right: 0.24rem;
+}
+h5 {
+	color: rgba(0,0,0,0.7);
+	font-size: 0.26rem;
+	font-weight: 400;
+	margin-bottom: 0.1rem;
+}
+h6 {
+	/*background-color: red;*/
+	font-weight: 400rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.2rem;
+	color: rgba(0,0,0,0.6);
+}
+.gouwuche {
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	height: 1.4rem;
+	width: 7.5rem;
+	/*background-color: yellow;*/
+	
+}
+/*.g-top{
+	height: 0.42rem;
+	background-color: #ffdbb7;
+	width: 100%;
+	text-align: center;
+	margin-left: 1rem;
+	line-height: 0.42rem;
+	font-size: 0.2rem;
+	color: rgba(0,0,0,0.7);
+}*/
+.che {
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.44rem;
+	width: 0.93rem;
+	height: 0.93rem;
+	background-image: linear-gradient(172deg, #ff397a 0%, #ff4e4e 100%);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 0.93rem;
+	font-size: 0.5rem;
+}
+.che i {
+	font-size: 0.56rem;
+	color: white;
+}
+.zhifu {
+	margin-top: 0.42rem;
+	height: 0.98rem;
+	width: 100%;
+	background-color: #333333;
+}
+.queren {
+	background-color: #46484b;
+	width: 1.7rem;
+	height: 100%;
+	float: right;
+	line-height: 0.98rem;
+	font-size: 0.22rem;
+	text-align: center;
+	color: white;
+}
+.xinxi {
+	width: 1.28rem;
+	height: 0.76rem;
+	/*background-color: pink;*/
+	margin-left: 1.6rem;
+	padding-top: 0.18rem;
+}
+.price {
+	font-size: 0.22rem;
+	color: #686262;
+}
+.free {
+	font-size: 0.2rem;
+	color: #686262;
+}
