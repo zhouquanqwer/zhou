@@ -202,6 +202,29 @@ ul .hott {
 	color: #ff0000;
 	font-weight: 400;
 }
+.addkuang{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	width: 1.24rem;
+	height: 0.41rem;
+}
+.minus{
+	width: 0.40rem;
+	height: 0.40rem;
+	background-color: white;
+	border-style: solid;
+	border-color: #ff4d5b;
+	border-width: 0.01rem;
+	text-align: center;
+	font-size: 0.24rem;
+	border-radius: 50%;
+	line-height: 0.4rem;
+}
+.num{
+	color: rgba(0,0,0,0.8);
+	font-size: 0.3rem;
+}
 .add {
 	width: 0.41rem;
 	height: 0.41rem;
